@@ -1,8 +1,8 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 const todoSlice = createSlice({
-  name: 'todos',
-  initialState: [],
+  name: "todos",
+  initialState: [{ id: Date.now(), text: "Выпить кофе", completed: false }],
   reducers: {
     addTodo: (state, action) => {
       state.push({ id: Date.now(), text: action.payload, completed: false });

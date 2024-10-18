@@ -1,0 +1,130 @@
+.filter {
+  display: flex;
+  gap: 10px;
+}
+.filter__btn {
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid #30324b;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  transition: all 0.5s;
+}
+.btn1:hover {
+  background-color: #575a84;
+  color: #ffffff;
+  border: 2px solid #30324b;
+}
+.btn1:focus {
+  background-color: #30324b;
+  color: #ffffff;
+  border: 2px solid #a4a4a4;
+}
+.btn1_active {
+  background-color: #30324b;
+  border: 1px solid #30324b;
+  color: #ffffff;
+}
+.btn2_active {
+  background-color: #6ad400;
+  color: #ffffff;
+}
+.btn3_active {
+  background-color: #ff2f2f;
+  color: #ffffff;
+}
+.btn2 {
+  border: 2px solid #6ad400;
+  color: #6ad400;
+}
+.btn2:hover {
+  background-color: #ceff9d;
+  color: #6ad400;
+  border: 2px solid #6ad400;
+}
+.btn2_active {
+  background-color: #6ad400;
+  color: #ffffff;
+}
+.btn3 {
+  border: 2px solid #ff2f2f;
+  color: #ff2f2f;
+}
+.btn3:hover {
+  background-color: #ffb8b8;
+  color: #ffffff;
+}
+.btn3_active {
+  background-color: #ff2f2f;
+  color: #ffffff;
+}
+.task {
+  margin-top: 31px;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0px 4px 17.8px 0px #0000001a;
+  padding: 20px;
+  border-radius: 21px;
+}
+.task h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #30324b;
+  padding-bottom: 20px;
+}
+.task p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #30324b;
+}
+.taskBox {
+  display: flex;
+  gap: 30px;
+}
+.svgBox {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+.task__icon {
+  cursor: pointer;
+  stroke: #A4A4A4;
+  fill: none;
+}
+.task__icon:hover {
+fill: #D9D9D9;
+}
+.btn__icon {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: #A4A4A4;
+  cursor: pointer;
+}
+.task__iconActive {
+  fill: #6AD400;
+  stroke: #6AD400;
+}
+
+.btn__icon:hover {
+  stroke: #606492
+}
+.btn__iconActive {
+  stroke: #0013FF;
+}
+.btn__delete {
+  width: 24px;
+  height: 24px;
+  fill: #ff2f2f;
+  stroke: #ff2f2f;
+  stroke-width: 0.5;
+  cursor: pointer;
+}
+.btn__delete:hover {
+  stroke: #FF9B9B;
+  fill: #FF9B9B;
+}
