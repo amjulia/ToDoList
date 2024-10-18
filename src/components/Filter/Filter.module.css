@@ -1,0 +1,62 @@
+.filter {
+    display: flex;
+    gap: 10px;
+  }
+  .filter__btn {
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #30324b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    transition: all 0.5s;
+  }
+  .btn1:hover {
+    background-color: #575a84;
+    color: #ffffff;
+    border: 2px solid #30324b;
+  }
+  .btn1:focus {
+    background-color: #30324b;
+    color: #ffffff;
+    border: 2px solid #a4a4a4;
+  }
+  .btn1_active {
+    background-color: #30324b;
+    border: 1px solid #30324b;
+    color: #ffffff;
+  }
+  .btn2_active {
+    background-color: #6ad400;
+    color: #ffffff;
+  }
+  .btn3_active {
+    background-color: #ff2f2f;
+    color: #ffffff;
+  }
+  .btn2 {
+    border: 2px solid #6ad400;
+    color: #6ad400;
+  }
+  .btn2:hover {
+    background-color: #ceff9d;
+    color: #6ad400;
+    border: 2px solid #6ad400;
+  }
+  .btn2_active {
+    background-color: #6ad400;
+    color: #ffffff;
+  }
+  .btn3 {
+    border: 2px solid #ff2f2f;
+    color: #ff2f2f;
+  }
+  .btn3:hover {
+    background-color: #ffb8b8;
+    color: #ffffff;
+  }
+  .btn3_active {
+    background-color: #ff2f2f;
+    color: #ffffff;
+  }

@@ -1,65 +1,3 @@
-.filter {
-  display: flex;
-  gap: 10px;
-}
-.filter__btn {
-  padding: 10px 15px;
-  border-radius: 10px;
-  cursor: pointer;
-  border: 2px solid #30324b;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  transition: all 0.5s;
-}
-.btn1:hover {
-  background-color: #575a84;
-  color: #ffffff;
-  border: 2px solid #30324b;
-}
-.btn1:focus {
-  background-color: #30324b;
-  color: #ffffff;
-  border: 2px solid #a4a4a4;
-}
-.btn1_active {
-  background-color: #30324b;
-  border: 1px solid #30324b;
-  color: #ffffff;
-}
-.btn2_active {
-  background-color: #6ad400;
-  color: #ffffff;
-}
-.btn3_active {
-  background-color: #ff2f2f;
-  color: #ffffff;
-}
-.btn2 {
-  border: 2px solid #6ad400;
-  color: #6ad400;
-}
-.btn2:hover {
-  background-color: #ceff9d;
-  color: #6ad400;
-  border: 2px solid #6ad400;
-}
-.btn2_active {
-  background-color: #6ad400;
-  color: #ffffff;
-}
-.btn3 {
-  border: 2px solid #ff2f2f;
-  color: #ff2f2f;
-}
-.btn3:hover {
-  background-color: #ffb8b8;
-  color: #ffffff;
-}
-.btn3_active {
-  background-color: #ff2f2f;
-  color: #ffffff;
-}
 .task {
   margin-top: 31px;
   align-items: center;
@@ -75,14 +13,18 @@
   color: #30324b;
   padding-bottom: 20px;
 }
-.task p {
+.task__text {
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
   color: #30324b;
 }
+.textCrossed{
+  text-decoration: line-through;
+}
 .taskBox {
   display: flex;
+  align-items: center;
   gap: 30px;
 }
 .svgBox {
@@ -95,9 +37,9 @@
   stroke: #A4A4A4;
   fill: none;
 }
-.task__icon:hover {
+/* .task__icon:hover {
 fill: #D9D9D9;
-}
+} */
 .btn__icon {
   width: 24px;
   height: 24px;
@@ -116,6 +58,7 @@ fill: #D9D9D9;
 .btn__iconActive {
   stroke: #0013FF;
 }
+
 .btn__delete {
   width: 24px;
   height: 24px;
@@ -127,4 +70,26 @@ fill: #D9D9D9;
 .btn__delete:hover {
   stroke: #FF9B9B;
   fill: #FF9B9B;
+}
+.task__input {
+  width: 100%;
+  outline: none;
+  border: none;
+  background: transparent;
+  
+}
+.task__input_edit{
+  width: 50%;
+  padding-bottom: 3px;
+  border-bottom: 0.5px solid #A4A4A4;
+  caret-color: #0013FF;
+  cursor: text;
+}
+.button__edit {
+border: none;
+background: transparent;
+color: #0013FF;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
 }
