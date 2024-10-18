@@ -1,0 +1,94 @@
+.task {
+  margin-top: 31px;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0px 4px 17.8px 0px #0000001a;
+  padding: 20px;
+  border-radius: 21px;
+}
+.task h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #30324b;
+  padding-bottom: 20px;
+}
+.task__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #30324b;
+}
+.textCrossed {
+  text-decoration: line-through;
+}
+.taskBox {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.svgBox {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+.task__icon {
+  cursor: pointer;
+  stroke: #a4a4a4;
+  fill: none;
+}
+/* .task__icon:hover {
+fill: #D9D9D9;
+} */
+.btn__icon {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: #a4a4a4;
+  cursor: pointer;
+}
+.task__iconActive {
+  fill: #6ad400;
+  stroke: #6ad400;
+}
+
+.btn__icon:hover {
+  stroke: #606492;
+}
+.btn__iconActive {
+  stroke: #0013ff;
+}
+
+.btn__delete {
+  width: 24px;
+  height: 24px;
+  fill: #ff2f2f;
+  stroke: #ff2f2f;
+  stroke-width: 0.5;
+  cursor: pointer;
+}
+.btn__delete:hover {
+  stroke: #ff9b9b;
+  fill: #ff9b9b;
+}
+.task__input {
+  width: 100%;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.task__input_edit {
+  width: 50%;
+  padding-bottom: 3px;
+  border-bottom: 0.5px solid #a4a4a4;
+  caret-color: #0013ff;
+  cursor: text;
+}
+.button__edit {
+  border: none;
+  background: transparent;
+  color: #0013ff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
