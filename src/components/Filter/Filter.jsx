@@ -11,7 +11,6 @@ const Filter = () => {
   const handleButtonClick = (buttonType) => {
     setActiveButton(buttonType);
     dispatch(setFilter(buttonType));
-    
   };
 
   return (
